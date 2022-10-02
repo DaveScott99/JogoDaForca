@@ -104,26 +104,6 @@ public class Jogo {
 
 	}
 
-	public static void novoJogo() {
-
-		int novoJogo = 1;
-
-		do {
-
-			switch (novoJogo) {
-			case 1:
-				menuJogo();
-				break;
-			case 2:
-				System.out.println("Obrigado por jogar!!");
-				System.exit(0);
-				break;
-			}
-
-		} while (novoJogo == 1);
-
-	}
-
 	public static void jogo() {
 
 		carregarPalavraSecreta();
